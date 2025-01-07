@@ -1,4 +1,4 @@
-document.body.style.backgroundImage = "url('./img/Space-Background-Image-8.jpg')";
+document.body.style.backgroundImage = "url('./img/dc9403f2728181c388cabc1a96e89251.jpg')";
 const bgImg = document.querySelector(".bg-img");
 if (bgImg) {
     bgImg.style.marginLeft = '35%';
@@ -24,18 +24,18 @@ userForm.addEventListener("submit", function (e) {
         <p>Name: ${inputName}</p>
         <p>Email: ${inputEmail}</p>
         <p>Age: ${inputAge}</p>
-        <p>Gender: ${inputGender}</p>
+        <p>Gender: ${inputGender}</p> 
         <p>Hobbies: ${selectedHobbies}</p>
     `;
 });
 
 const bgColor = document.querySelector('.bgColor');
-bgColor.style.backgroundColor = 'rgb(191, 197, 214)';
-bgColor.style.color = 'rgb(1, 15, 53)';
+bgColor.style.backgroundColor = 'rgb(35, 75, 104)';
+bgColor.style.color = 'rgb(235, 238, 247)';
 bgColor.style.width = '500px';
 bgColor.style.height = 'auto';
 bgColor.style.borderRadius = '20px';
-bgColor.style.margin = '25px 35%';
+bgColor.style.margin = '30px 35%';
 bgColor.style.padding = '40px';
 console.log(bgColor);
 
